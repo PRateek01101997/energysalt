@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#2E0F42">
+<title>Energy Salt | One Salt for Every Chakra</title>
+<meta name="description" content="A set of seven colour-toned salts, one for each chakra. For your bath, meditation and daily ritual.">
+<meta property="og:title" content="Energy Salt">
+<meta property="og:description" content="Where every chakra finds its colour. Seven salts, root to crown.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Hind:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav dark" aria-label="Main">
+  <div class="wrap nav-in">
+    <a class="brand" href="#"><b id="brand-en">Energy Salt</b><span id="brand-hi">Chakra Salts</span></a>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#chakras">Chakras</a>
+      <a href="#offers">Offerings</a>
+      <a href="#gallery" id="nav-gallery" hidden>Gallery</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#book">Order</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a class="btn" data-order href="#book">Order Now</a>
+  </div>
+</nav>
+
+<header class="hero dark">
+  <div class="hero-bg" id="hero-bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <p class="eyebrow">✦ Seven Chakras, Seven Colours ✦</p>
+    <h1>Where Every Chakra Finds Its Colour</h1>
+    <p class="sub">Seven colour-toned salts, one for each chakra. For your bath, meditation and daily ritual.</p>
+    <div class="cta">
+      <a class="btn" data-order href="#book">Order Now</a>
+      <a class="btn btn-ghost" href="#chakras">Explore the Chakras</a>
+    </div>
+    <ul class="trust" id="trust" aria-label="Why customers trust us"></ul>
+    <div class="jars" id="jars" aria-label="Choose a chakra salt to jump to it"></div>
+    <noscript><p>Please turn on JavaScript to view this page.</p></noscript>
+  </div>
+</header>
+
+<main>
+<section class="light pad" id="about" aria-labelledby="about-title">
+  <div class="wrap about-grid">
+    <div>
+      <p class="eyebrow">Faith, Tradition, Practice</p>
+      <h2 id="about-title">Experience the Chakras Through Colour and Salt</h2>
+      <p class="t">Seven energy centres from yogic tradition, each with its own colour and mantra. Our set gives every chakra its own salt, for your bath, your meditation or your shelf.</p>
+      <ul class="checks">
+        <li>Seven colours, seven chakras</li>
+        <li>Rooted in yogic tradition</li>
+        <li>For bath, meditation and ritual</li>
+        <li>Simple, secure ordering</li>
+      </ul>
+    </div>
+    <div class="legend" id="legend" aria-label="The seven chakras, crown to root"></div>
+  </div>
+</section>
+
+<section class="light" id="chakras" aria-labelledby="chakras-title" style="padding-top:clamp(64px,9vw,112px)">
+  <div class="wrap">
+    <div class="sec-head" style="margin-bottom:56px">
+      <p class="eyebrow">The Seven Chakras</p>
+      <h2 id="chakras-title">Meet the Seven Chakras</h2>
+      <p>Each chakra has its own salt, its own colour and its own practice. Read through them one by one.</p>
+    </div>
+  </div>
+</section>
+<div id="cs-list"></div>
+<div class="cs-cta"><a class="btn btn-maroon" href="#offers">Get All Seven Salts</a></div>
+
+<section class="offers pad light" id="offers" aria-labelledby="offers-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Choose Yours</p>
+      <h2 id="offers-title">Choose Your Sacred Set</h2>
+    </div>
+    <div class="offer-grid" id="offer-grid"></div>
+  </div>
+</section>
+
+<section class="testi pad dark" id="testimonials" aria-labelledby="testi-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Customer Experiences</p>
+      <h2 id="testi-title">What Our Customers Say</h2>
+      <p>Words from people who bring the seven salts into their daily practice.</p>
+    </div>
+    <div class="t-grid" id="t-grid"></div>
+    <div class="t-stats" id="t-stats"></div>
+    <p class="sample-note" id="sample-note" hidden>These are sample reviews and placeholder faces. Before you publish, replace them with real customer reviews and photos in the REVIEWS list, then set showSampleNote to false.</p>
+  </div>
+</section>
+
+<section class="light pad" id="gallery" aria-labelledby="gal-title" hidden>
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">A Glimpse</p>
+      <h2 id="gal-title">A Glimpse of the Seven Salts</h2>
+    </div>
+    <div class="gal-grid" id="gal-grid"></div>
+  </div>
+</section>
+
+<section class="light pad" aria-labelledby="faq-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Questions</p>
+      <h2 id="faq-title">Questions Before You Order</h2>
+    </div>
+    <div class="faq-list" id="faq"></div>
+  </div>
+</section>
+
+<section class="book pad dark" id="book" aria-labelledby="book-title">
+  <div class="wrap book-cta">
+    <p class="eyebrow">Complete Your Order</p>
+    <h2 id="book-title">Order Now</h2>
+    <p class="t">Choose your single chakra salt or complete seven-chakra set, then place your order using our Google Form.</p>
+    <a class="btn book-order-btn" data-order href="#book">Order Now</a>
+  </div>
+</section>
+</main>
+
+<footer class="dark" id="contact">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4 id="foot-brand"></h4>
+        <p style="opacity:.88">Colour, salt and quiet ritual, for your everyday practice.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul id="contact-list"></ul>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#chakras">The Seven Chakras</a></li>
+          <li><a href="#offers">Offerings</a></li>
+          <li><a href="#book">Order</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-note">
+      <p>These salts are for ritual, meditation and wellness use. They are not medicine and are not meant to diagnose, treat or cure any condition.</p>
+      <p>&copy; <span id="year"></span> <span id="foot-brand2"></span>. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="sticky-cta" id="sticky-cta">
+  <div class="sticky-in">
+    <span class="sticky-price" id="sticky-price"></span>
+    <a class="btn btn-maroon" data-order href="#book">Order Now</a>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
